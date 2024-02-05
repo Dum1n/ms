@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Creeaza Un Account!</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i  class="fa-brands fa-google"></i></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-safari"></i></a>
+                    <a href="#" class="icon"><i  class="fa-brands fa-instagram"></i></i></a>
+                </div>
+                <span>sau foloseste email pentru a te inregistra</span>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Inscrie-te</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Conecteaza-te!</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i  class="fa-brands fa-google"></i></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-safari"></i></a>
+                    <a href="#" class="icon"><i  class="fa-brands fa-instagram"></i></i></a>
+                </div>
+                <span>sau prin adresa de email si parola</span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <a href="#">Apasati pe <span class="inscriere"> CONECTEAZA-TE </span> cand ati introdus datele  </a> 
+                <button>Conecteaza-te</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Bine ati revenit!</h1>
+                    <p>Intrati cu datele d-neavoastrei pentru a accesa site-ul
+                    </p>
+                    <button class="hidden" id="login">Conecteaza-te</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Salut!</h1>
+                    <p>Intrati cu datele d-neavoastrei pentru a accesa site-ul</p>
+                    <button class="hidden" id="register">Inscrie-te</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
